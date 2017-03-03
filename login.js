@@ -10,6 +10,7 @@ function login() {
         headers: {
             'Content-Type': 'application/json'
         },
+        
 
         //ask about variables on the left
         body: JSON.stringify({
@@ -48,8 +49,8 @@ function signUp() {
         body: JSON.stringify({
             name: name,
             username: userName,
-            password: password,
-            avatar: avi
+            password: signUpPassword,
+            photo_url: avi
         })
     })
         .then(function(response) {
