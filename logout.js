@@ -26,10 +26,6 @@ function login() {
                 sessionStorage.setItem('token', response.token);
                 location.href = 'main.html';
             }
-            else {
-                alert('Oh no!!!!!!!!!!!!!');
-                console.log(response);
-            }
         })
 }
 

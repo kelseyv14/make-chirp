@@ -9,25 +9,39 @@
     <link rel="stylesheet" href="chirp.css" />
 </head>
 
-<body class="background">
+<body>
 
 <main>
 
-        <div class="card">
-            <div class= "container">
-            //sucess message
-            <div class="minicard">
-            //#uname box-search field input
-            //#password "           "
-            //#loginButton
+        <div class="container">
+            <div class= "card">
+                <img src="../img/giphy.gif"/>
+                <div class="alert alert-success">
+                 <strong>Chirp Chirp!</strong><br> You have successfully logged out
+                </div>
+            <hr class="style">
+                <form>
+                <div class="form-group">
+                 <label for="username">User Name</label>
+                <input type="username" class="form-control" id="uName">
+                 </div>
+                <div class="form-group">
+                 <label for="password">Password</label>
+                 <input type="password" class="form-control" id="password">
+                </div>
+                </form> 
+                <a class="btn btn-default" id="reLogin">Login</a><br><br>
+                <a href="login.html#exactline" class="btn btn-default" id="newBack">New User ?</a><br>
+           
+                
             </div>
-            //#backToSignUpButton
-            <a class="btn btn-primary" href="login.html">New User?</a>
+            </div>
+           
 
         </div>
         </div>
 
 
-    <script src="js/global.js"></script>
+    <script src="logout.js"></script>
 </body>
 </html>

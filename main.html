@@ -9,8 +9,56 @@
     <link rel="stylesheet" href="chirp.css" />
 </head>
 <body>
-
-
-    <script src="js/global.js"></script>
+     <header id="topImage"></header>
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <h4 class="nest">Your Nest</h4>
+    </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#chirpDown"><span class="glyphicon glyphicon-volume-up"></span>Chirp</a></li>
+        <li><a href="friends.html"><span class="glyphicon glyphicon-heart"></span>Friends</a></li>
+        <li><a href="logout.html" id="logout"><span class="glyphicon glyphicon-off"></span>Logout</a></li>
+      </ul>
+    </div>
+    </nav>
+   <div class="container">
+        <div class="row">
+            <div class="col-sm-5 col-sm-offset-4">
+            //aviPlace
+            <div class="miniCard">
+            
+            //userNamePlace
+                </div>
+          
+             <div class="form-group">
+                <div class="input-group">
+                <input id="message" type="text" class="form-control" maxlength="160" placeholder="chirp your chirp here">
+                <span class="input-group-btn">
+                <button id="sendMessage" class="btn btn-info" type="button">Chirp !</button>
+                </span>
+                </div> 
+             </div>
+             </div>
+             </div>
+            </div>
+        </div>     
+        </div><br>
+          <div class="form-group hidden" id="messageSent">
+            <div class="alert alert-success text-center">
+            </div>
+             </div>
+        <div class="panel panel-default">
+        <div class="panel-heading">
+         <h4 class="chirps">Chirps</h4>
+        </div>
+        <div class="panel-body">
+        <ul class="list-group" id="messages">
+        </ul>
+        </div>
+    </div>
+       
+             
+    <script src="main.js"></script>
 </body>
 </html>

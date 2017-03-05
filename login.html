@@ -12,36 +12,64 @@
 
         <div class="container">
             <div class= "card">
-            <img class="icon" src="./cardinal.png"/>
-            <a class="btn btn-primary" href="#downOne">Login</a><a class="btn btn-primary" href="#downTwo">Sign Up</a>  
+             <h3 class="title">The Cardnial says Chirp...so can you!</h3><br><br>
+                <img src="http://www.clker.com/cliparts/u/Q/F/2/3/5/red-cardinal-md.png" class="img-responsive" alt="Cardinal says Chirp!">
+        
+         
+           
+            <div class="btn-group-vertical" role="group" aria-label="...">
+                <a href="#userName" class="btn btn-lg" type="button">Login</a><br>
+                <a href="#name" class="btn btn-lg" type="button">Sign Up</a><br>
+             
+            </div> 
             <hr class="style">
             <div class="miniCard">
-           
-            <div class="input-group" id="downOne">
-            <input type="text" class="form-control" placeholder="Username"><br>
-            <div class="input-group">
-            <input type="text" class="form-control" placeholder="Password"><br>
-            <button type="button" class="btn btn-default" id="loginButton">Login</button>
+               <form>
+                <div class="form-group">
+                 <label for="username">User Name</label>
+                <input type="username" class="form-control" id="uName" placeholder="ex: BridgetBardot1962">
+                 </div>
+                <div class="form-group">
+                 <label for="password">Password</label>
+                 <input type="password" class="form-control" id="password" placeholder="xxxxxx">
+                </div>
+                </form><br> 
+            <button type="button" class="btn btn-default"  id="loginButton">Login</button>
             </div>
-            <hr class="style">
-            <h4 id="downTwo">New to Cardnial Says Chirp ? Sign up here!</h4><br>
-            <div class="input-group">
-            <input type="text" class="form-control" placeholder="Name" id="name"><br>
-            <div class="input-group">
-            <input type="text" class="form-control" placeholder="Username" id="signUpUserName"><br>
-            <div class="input-group">
-            <input type="text" class="form-control" placeholder="Password" id="signUpPassword"><br>
-            <div class="input-group">
-            <input type="text" class="form-control" placeholder="Avatar url" id="avi"><br>
-
+            <hr class="style"><br>
+            <h4 id="newUser"><a name="exactline">New to Cardinal Says Chirp ? Sign up here!</a></h4><br><br><br>
+            <img src="https://www.wpclipart.com/animals/birds/C/cardinal/Cardinals.png" class="img-responsive"/>
+             <form>
+                <div class="form-group">
+                 <label for="name">Name</label>
+                <input type="name" class="form-control" id="name" placeholder="Nancy">
+                 </div>
+                <div class="form-group">
+                 <label for="username">User Name</label>
+                 <input type="username" class="form-control" id="signUpUserName" placeholder="max-14 characters">
+                </div>
+                 <div class="form-group">
+                 <label for="password">Password</label>
+                 <input type="password" class="form-control" id="signUpPassword" placeholder="xxxxxx">
+                </div>
+                </form>
+             <form class="form-inline">
+            <div class="form-group">
+             <label class="sr-only" for="avi"></label>
+             <div class="input-group">
+             <div class="input-group-addon">Photo URL</div>
+             <input type="text" class="form-control" id="avi" placeholder="for Avatar">
+            </form> 
+            </div>
+            </div><br><br>
+           
             <button type="button" class="btn btn-default" id="signUpButton">Sign Up</button>
             </div>
+            </div>
+
             
-            //#name search field input
-            //#userName  "           "
-            //#signUpPassword "           "
-            //#avi "           "
-            //#signUpButton
+            
+        
         </div>
         </div>
 
