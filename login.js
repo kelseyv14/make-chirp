@@ -47,8 +47,8 @@ function signUp() {
 
         //ask about variables on the left
         body: JSON.stringify({
-            name: name,
             username: userName,
+            name: name,
             password: signUpPassword,
             photo_url: avi
         })
